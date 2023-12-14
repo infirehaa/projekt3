@@ -1,0 +1,26 @@
+.body {
+    background-color: black;
+}
+
+.kasse {
+    background-color: rgba(213, 172, 78, 0.5); /* Use rgba and set the alpha value */
+    color: white;
+   
+    border: 2px solid #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    margin-right: 50px;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.icon img{
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,17 @@
+.kasse{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+.tekstleft{
+
+}
+
+.billedright img{
+height: 500px;
+width: 500px;
+}
