@@ -1,26 +1,59 @@
-.body {
-    background-color: black;
+.bodyAbout {
+    background-color: whitesmoke;
 }
 
 .kasse {
-    background-color: rgba(213, 172, 78, 0.5); /* Use rgba and set the alpha value */
-    color: white;
-   
-    border: 2px solid #ffffff;
+    background-color: rgba(213, 172, 78, 0.5);
+    color: black;
+    border: 2px solid black;
     margin: 20px;
     border-radius: 10px;
-
     padding: 20px;
-    text-align: center;
     display: flex;
     margin-right: 50px;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-content: flex-start;
+    font-family: sans-serif;
+    width: auto;
 }
 
 .icon img{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
+
+.navWrapper {
+    display: flex;
+    justify-content: space-evenly
+}
+
+ul.menu {
+    font-size: 32px;
+    list-style-type: none;
+ 
+    margin: 0;
+}
+
+ul.menu li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color:black;
+
+  }    
+  /* mouse over link */
+  ul.menu li a:hover {
+    color: grey;
+  }
+  
+  /* selected link */
+  ul.menu li a:active {
+    color: blue;
+  }

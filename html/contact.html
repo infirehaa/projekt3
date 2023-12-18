@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 
 <html>
-<head>
+    <head>
         <meta charset="utf8"> 
         <title> Contact </title>
-
-</head>
+        <link rel="stylesheet" href="css/contactstyle.css"> 
+    </head>
     <body>
+        <div class="navWrapper">
+       
+            <ul class="menu menuLeft">
+                <li><a href="index.html">Phong Luu</a></li>
+              </ul>
+            <ul class="menu">
+                
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+           </div> 
+
+            <div class="kasse">
+
+           <div class="container">
+            <h1>Kontakt mig</h1>
+            <p>Send mig en besked:</p>
+    
+            <form action="process.php" method="post">
+                <label for="name">Navn</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Besked</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+            
+            </div>           
 
     </body>
+
 </html>
